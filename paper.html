@@ -59,8 +59,12 @@ h1 {
 }
 
 .return-home {
-    text-align: center; 
-    margin-top: 40px;   
+    position: fixed;     /* 固定位置 */
+    bottom: 20px;        /* 距离底部 20px */
+    left: 50%;           /* 水平基准点在中间 */
+    transform: translateX(-50%); /* 水平居中 */
+    z-index: 100;
+    text-align: center;   
 }
 
 .return-home a {
