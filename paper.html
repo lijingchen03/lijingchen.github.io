@@ -1,21 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>论文创作</title>
-</head>
+<meta charset="UTF-8">
+<title>论文创作</title>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(160deg, #f0f0f0, #e8e2f2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container {
+    max-width: 900px;
+    width: 90%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.card a:hover {
+    color: #6a3fba;
+}
+</style>
+</head>
 <body>
 
-<h1>论文创作</h1>
+<div class="container">
+    <h1>论文创作</h1>
 
-<ul>
-    <li><a href="liuyichang.html">《“多余人”在现代性的香港——读〈酒徒〉有感》</a></li>
-    <li><a href="#">《论影片〈新女性〉中情感的建构模式》</a></li>
-    <li><a href="#">《浅论电影中农村与村民形象的塑造》</a></li>
-    <li><a href="#">《流量时代下香港的新闻生态与职场博弈——以〈新闻女王〉和〈新闻女王2〉为例》</a></li>
-    <li><a href="#">《香港、纽约都市形象的影像建构——以王家卫和伍迪·艾伦电影为例》</a></li>
-</ul>
+    <div class="card">
+        <a href="liuyichang_jitou.html">“多余人”在现代性的香港——读《酒徒》有感</a>
+    </div>
+
+    <div class="card">
+        <a href="other_paper.html">论影片《新女性》中情感的建构模式</a>
+    </div>
+
+    <div class="card">
+        <a href="other_paper.html">流量时代下香港的新闻生态与职场博弈——以《新闻女王〉和〈新闻女王2〉为例</a>
+    </div>
+
+    <div class="card">
+        <a href="other_paper.html">香港、纽约都市形象的影像建构——以王家卫和伍迪·艾伦电影为例</a>
+    </div>
+    
+    <div class="card">
+        <a href="another_paper.html">浅论电影中农村与村民形象的塑造</a>
+    </div>
+</div>
+
+</body>
+</html>
+    
 
 <p>
     <a href="index.html">返回首页</a>
